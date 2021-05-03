@@ -1,0 +1,38 @@
+languageCode: "en-us"
+baseUrl: ""
+title: "Notes"
+theme: "anubis"
+paginate: 10
+enableRobotsTXT: true
+
+menu:
+  main:
+  - identifier: archive
+    name: Archive
+    title: Archive
+    url: /posts/
+    weight: 0
+
+params:
+  author: "Yuriy Arhipov"
+  email: yuriyarhipov@gmail.com # used for microformats
+  avatar: "/images/me.png" # used for microformats
+  description: "nothing criminal, just my notes"
+  
+  dateFormat: "2006-01-02"
+  paginationSinglePost: true
+  style: light-with-switcher
+  readMore: false
+  disableSummary: false
+  # utteranc.es support
+  utterancesRepo: ""  # mandatory
+  utterancesTheme: "" # optional
+  utterancesIssue: "" # optional
+  utterancesLabel: "" # optional
+  webmentions:
+    url: https://yourdomain.com/webemntions/receive
+    login: hugo-theme-anubis
+    pingback: true
+
+markup:
+  
