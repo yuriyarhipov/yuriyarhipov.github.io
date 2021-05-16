@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: "https://yuriyarhipov.github.io/"
+baseUrl: "https://yura.cc"
 title: "Notes"
 theme: "anubis"
 paginate: 10
@@ -18,7 +18,7 @@ params:
   email: yuriyarhipov@gmail.com # used for microformats
   avatar: "/images/me.png" # used for microformats
   description: "nothing criminal, just my notes"
-  
+
   dateFormat: "2006-01-02"
   paginationSinglePost: true
   style: light-with-switcher
@@ -35,4 +35,3 @@ params:
     pingback: true
 
 markup:
-  
